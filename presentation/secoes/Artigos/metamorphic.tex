@@ -1,0 +1,43 @@
+\section{Metamorphic}
+
+\begin{frame}
+	\begin{block}{Artigo 04}
+	\begin{enumerate}
+		\item Identifying Implementation Bugs in Machine Learning Based Image Classifiers using Metamorphic Testing
+	\end{enumerate}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{block}{Metamorphic - overview}
+	\begin{enumerate}
+		\item Uso do conceito de teste metamórfico para testar algoritmos de machine learning.
+		\item Solução não agnóstica dado que há necessidade de definir relação metamórfica para cada novo modelo
+		\item Os autores conseguem validar a solução criando bugs artificiais em algoritmos conhecidos de machine learning (como SVM) e aplicando a solução proposta.
+		\item Não há uso de bugs reais para avaliar o algoritmo
+	\end{enumerate}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{block}{Metamorphic - funcionamento}
+		\begin{enumerate}
+			\item São definidos relações metamórficas para cada um dos dois algoritmos de machine learning (SVM e Residual Network)
+			\item Os autores alteram o fonte dos algoritmos para chumbar uma semente aleatória fixa para todas as execuções
+			\item As relações metamórficas não devem causar alteração no output e  função de perda no decorrer do treino
+			\item Com essas condições asseguradas, se ocorrer uma alteração na função de perda ou output há indício de bug
+		\end{enumerate}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+	\begin{block}{Metamorphic - exemplos de relações metamórficas}
+		\begin{enumerate}
+			\item Alterar a ordem das instâncias de treino
+			\item Alterar a ordem das features de treino
+			\item Adicionar um valor constantes em determinadas features
+			\item Escalar as variáveis
+		\end{enumerate}
+	\end{block}
+\end{frame}

@@ -1,0 +1,39 @@
+\documentclass[compress, hyperref={pdfpagelayout=SinglePage}]{beamer}
+
+\include{meta}
+
+\title[SIN5022]{Teste de Software Escola de Artes Ciências e Humanidades}
+\author{Professor Mestre: Adilson Lopes Khouri}
+
+\begin{document}
+
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	\input{./secoes/Sumario/sumario}
+	
+	\input{./secoes/Artigos/contextualizacao}
+	
+	\input{./secoes/Artigos/lime}
+
+	\input{./secoes/Artigos/manifold}
+		
+	\input{./secoes/Artigos/shap}
+	
+	\input{./secoes/Artigos/metamorphic}
+
+	\input{./secoes/Agradecimentos/agradecimentos}
+
+	\input{./secoes/Contato/contato}
+
+	\begin{frame}{}
+		\begin{block}{Referências}
+			\tiny
+			\nocite{*}
+			\bibliographystyle{IEEEtranN}
+	    		\bibliography{referencias}
+		\end{block}
+	\end{frame}
+
+\end{document}
