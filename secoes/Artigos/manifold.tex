@@ -1,0 +1,31 @@
+\section{Manifold}
+
+\begin{frame}
+	\begin{block}{Artigo 02}
+	\begin{enumerate}
+		\item Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models
+	\end{enumerate}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+	\begin{block}{Manifold - overview: TODO colocar figuras aqui}
+		\begin{enumerate}
+			\item É um framework para ajudar o cientista a localizar falhas no modelo, para tal, os autores automatizam tarefas típicas para depurar modelos.
+			\item Para tal, os autores propõe criar uma ``matriz de confusão'' que relaciona modelos e classes, com essa matriz é possível avaliar visualmente onde os modelos não concordam.
+			\item Após selecionar a célula (tipicamente será escolhida a células de diferença Q1, Q3) é exibida uma comparação da distribuição de variáveis das instâncias daquela célula.
+			\item No proximo gráfico é exibida a distribuição das features, das instâncias selecionadas, e das instâncias pertencentes a cada classe.
+			\item A idéia é que as features com mesma ditribuição (na amostra e em todos os dados) são as mais relevantes para aquela decisão tomada.
+		\end{enumerate}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{block}{Manifold - funcionamento}
+		\begin{enumerate}
+			\item Realiza uma perturbação do dado de entrada, roda uma logística sobre o dado orignal e sobre o perturbado.
+			\item Interpreta a logística para dizer o quanto a variável foi explicativa para aquela decisão
+		\end{enumerate}
+	\end{block}
+\end{frame}
