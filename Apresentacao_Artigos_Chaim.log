@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.26)  30 JUN 2019 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.26)  30 JUN 2019 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,6 +790,9 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 
 LaTeX Warning: Label `fig_ds_process' multiply defined.
 
+
+LaTeX Warning: Label `fig_ds_process' multiply defined.
+
 )
 \openout1 = `Apresentacao_Artigos_Chaim.aux'.
 
@@ -1037,37 +1040,66 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 <./pic/LIMEfronteira.png, id=152, 743.77875pt x 694.595pt>
 File: ./pic/LIMEfronteira.png Graphic file (type png)
 <use ./pic/LIMEfronteira.png>
-Package pdftex.def Info: ./pic/LIMEfronteira.png  used on input line 43.
+Package pdftex.def Info: ./pic/LIMEfronteira.png  used on input line 44.
 (pdftex.def)             Requested size: 284.53416pt x 113.80832pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig_ds_proces
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \end{frame}
+l.44 \end{frame}
                  [11
 
- <./pic/LIMEfronteira.png>]) (./secoes/Artigos/shap.tex
-[12
+ <./pic/LIMEfronteira.png>]) (./secoes/Artigos/manifold.tex [12
 
 ] [13
 
-] [14
+]
+<./pic/matrizManifold.png, id=176, 1154.3125pt x 380.42125pt>
+File: ./pic/matrizManifold.png Graphic file (type png)
+<use ./pic/matrizManifold.png>
+Package pdftex.def Info: ./pic/matrizManifold.png  used on input line 36.
+(pdftex.def)             Requested size: 284.52634pt x 113.80798pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig_ds_proces
+s}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \end{frame}
+                 [14
 
-]) (./secoes/Artigos/manifold.tex [15
+ <./pic/matrizManifold.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 53.
+<./pic/manifold.png, id=185, 1128.215pt x 587.19376pt>
+File: ./pic/manifold.png Graphic file (type png)
+<use ./pic/manifold.png>
+Package pdftex.def Info: ./pic/manifold.png  used on input line 53.
+(pdftex.def)             Requested size: 284.53204pt x 113.80792pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig_ds_proces
+s}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \end{frame}
+                
+Overfull \vbox (61.24516pt too high) detected at line 53
+ []
 
-] [16
+[15
+
+ <./pic/manifold.png>]) (./secoes/Artigos/shap.tex [16
 
 ] [17
 
-])
-(./secoes/Artigos/metamorphic.tex [18
+] [18
 
-] [19
+])
+(./secoes/Artigos/metamorphic.tex [19
 
 ] [20
 
+] [21
+
 ])
-(./secoes/Agradecimentos/agradecimentos.tex [21
+(./secoes/Agradecimentos/agradecimentos.tex [22
 
 ]) (./secoes/Contato/contato.tex
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 13.
@@ -1118,13 +1150,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
- [22
+ [23
 
 ])
 \tf@nav=\write6
@@ -1144,18 +1174,18 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `Apresentacao_Artigos_Chaim.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 4A6E2A2EA006ED0EB2E0D00ECE7F2D96;360.
+(rerunfilecheck)             Checksum: 799D4BAECA7A877979B38D1D62406D88;360.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19715 strings out of 492649
- 371178 string characters out of 6129622
- 486779 words of memory out of 5000000
- 22956 multiletter control sequences out of 15000+600000
- 37780 words of font info for 78 fonts, out of 8000000 for 9000
+ 19731 strings out of 492649
+ 371468 string characters out of 6129622
+ 485766 words of memory out of 5000000
+ 22966 multiletter control sequences out of 15000+600000
+ 37905 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,64p,793b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -1166,10 +1196,10 @@ ype1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/h
 elvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic
 /uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
-Output written on Apresentacao_Artigos_Chaim.pdf (22 pages, 349151 bytes).
+Output written on Apresentacao_Artigos_Chaim.pdf (23 pages, 544554 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 19128 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 19138 words of extra memory for PDF output out of 20736 (max. 10000000)
 
